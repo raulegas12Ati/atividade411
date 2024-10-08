@@ -1,0 +1,54 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+header{
+    background: #fb8b24;
+    height: 6rem;
+    display: flex;
+    justify-content: center;
+}
+
+img{
+    width: 600;
+    height: 600;
+}
+
+.primeira{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    justify-content: space-around;
+}
+
+.segunda{
+    margin-top: 20rem;
+    background: #e36414;
+    height: 25rem;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+
+    p{
+        width: 30rem;
+    }
+}
+
+.terceira{
+    margin-top: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.terceira img{
+    width: 15rem;
+    height: 15rem;
+}
+
+p{
+    width: max-content;
+}
